@@ -72,7 +72,7 @@ header {
   z-index: 1;
 }
 
-.cover_footer {      
+.cover_footer {
   align-self: start;
   z-index: 2;
   height: 50px;
@@ -80,8 +80,8 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 1000px;
-  word-spacing:18px;
-} 
+  word-spacing: 18px;
+}
 .button {
   border: 1px solid white;
   height: 51px;
@@ -130,7 +130,7 @@ header {
 .right {
   align-self: end;
   margin-right: -27px;
-} 
+}
 .text_box {
   padding-top: 101px;
 }
@@ -154,7 +154,9 @@ h4 {
   font-weight: 400;
 }
 
-.card_card_1, .card_card_2,.card_card_3 {
+.card_card_1,
+.card_card_2,
+.card_card_3 {
   height: 596px;
   width: 334px;
   display: flex;
@@ -166,17 +168,19 @@ h4 {
   padding: 48px 40px;
   position: relative;
 }
-  .card_card_1 {
-  background-image: url("../images/card-lot-01.jpg"); 
+.card_card_1 {
+  background-image: url("../images/card-lot-01.jpg");
 }
-  .card_card_2 {
+.card_card_2 {
   background-image: url("../images/card-lot-02.jpg");
 }
-  .card_card_3 {
+.card_card_3 {
   background-image: url("../images/card-lot-03.jpg");
 }
 
-.card_card_1::before, .card_card_2::before, .card_card_3::before {
+.card_card_1::before,
+.card_card_2::before,
+.card_card_3::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -218,7 +222,8 @@ h4 {
   font-weight: 700;
   margin-bottom: 100px;
 }
-.text_1, .text_2 {
+.text_1,
+.text_2 {
   text-align: left;
   font-size: 20px;
   font-weight: 400;
@@ -231,8 +236,8 @@ h4 {
 .footer {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  align-items:start;
-  gap:175px;
+  align-items: start;
+  gap: 175px;
   width: 1100px;
   height: 180px;
 }
@@ -240,12 +245,12 @@ h4 {
 .address_footer {
   font-family: "Raleway";
   font-style: normal;
-  justify-self:right;
+  justify-self: right;
   padding-left: 20px;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-  text-align:left;
+  text-align: left;
   width: 265px;
 }
 .footer__links-list {
