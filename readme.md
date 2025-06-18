@@ -1,1 +1,1 @@
-https://github.com/ponomarenko777/ono-tebe-nado-fd
+https://github.com/ponomarenko777/ono-tebe-nado-fd  GI
