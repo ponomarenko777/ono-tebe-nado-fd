@@ -32,7 +32,7 @@ header {
   line-height: 24px;
   text-align: left;
   width: 240px;
-} 
+}
 
 .slots {
   display: flex;
@@ -57,7 +57,7 @@ header {
 }
 
 .slots_card_item {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -71,7 +71,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  min-height: 757px; 
+  min-height: 757px;
   padding: 165px 50px 50px 50px;
   margin-bottom: 180px;
   position: relative;
@@ -187,7 +187,7 @@ h4 {
   background-image: url("../images/card-lot-03.jpg");
 }
 
-.card::before { 
+.card::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -273,8 +273,8 @@ h4 {
   width: 164px;
 }
 
-  .link_active {
-  text-decoration: none; 
+.link_active {
+  text-decoration: none;
 }
 
 .footer__social-list-item {
